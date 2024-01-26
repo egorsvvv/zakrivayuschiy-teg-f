@@ -4,3 +4,50 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-dark {
+    --Font-inter: 'Inter-Variable', sans-serif;
+    --Font-Press: 'PressStart2P', sans-serif;
+    --Weight-title: 785;
+    --Weight-text: 465;
+    --main-color: #00cc14;
+    --background-color: #000;
+    --first-gradient: #000;
+    --second-gradient: #007f0c, #004306;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --Font-inter: 'Inter-Variable', sans-serif;
+        --Font-Press: 'PressStart2P', sans-serif;
+        --Weight-title: 785;
+        --Weight-text: 465;
+        --main-color: #00cc14;
+        --background-color: #000;
+        --first-gradient: #000;
+        --second-gradient: #007f0c, #004306;
+    }
+}
+
+:root.theme-light {
+    --Font-inter: 'Inter-Variable', sans-serif;
+    --Font-Press: 'PressStart2P', sans-serif;
+    --Weight-title: 700;
+    --Weight-text: 400;
+    --main-color: #000;
+    --background-color: #FFF;
+    --first-gradient: #d3d3d3;
+    --second-gradient: #e7e7e7, #1a1a1a;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --Font-inter: 'Inter-Variable', sans-serif;
+        --Font-Press: 'PressStart2P', sans-serif;
+        --Weight-title: 700;
+        --Weight-text: 400;
+        --main-color: #000;
+        --background-color: #FFF;
+        --first-gradient: #d3d3d3;
+        --second-gradient: #e7e7e7, #1a1a1a;
+    }
+}

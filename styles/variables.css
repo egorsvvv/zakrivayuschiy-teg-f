@@ -1,1 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --Font-inter: 'Inter-Variable', sans-serif;
+    --Font-Press: 'PressStart2P', sans-serif;
+    --Weight-title: 700;
+    --Weight-text: 400;
+    --main-color: #000;
+    --background-color: #FFF;
+    --first-gradient: #d3d3d3;
+    --second-gradient: #e7e7e7 , #1a1a1a;
+    --section-width: clamp(371px, 50%, 696px);
+}
