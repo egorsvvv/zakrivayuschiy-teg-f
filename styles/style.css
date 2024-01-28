@@ -132,7 +132,7 @@
 .content__start {
   background: var(--background-color);
   border: 2px solid var(--main-color);
-  margin-block-end: 54px;
+  margin-block-end: 47px;
 }
 
 .start__title {
@@ -193,6 +193,7 @@
 .button {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .button__container {
@@ -355,4 +356,53 @@
 
 .like-icon.is-liked .sparks {
   animation: sparkOpacity 0.3s 0.3s ease-in both;
+}
+
+.dialog {
+  min-width: 357px;
+  min-height: 193px;
+}
+
+.text__dialog {
+  color: var(--main-color);
+  font-family: var(--Font-Press);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 150%;
+  white-space: pre-line;
+}
+
+.button__container-dialog {
+  border: 1px solid var(--main-color);
+  font-family: var(--Font-Press);
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 293px;
+  max-height: 38px;
+  padding: 9px 17px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.dialog__Content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.floppy__button-dialog {
+  fill: var(--main-color);
+}
+
+.dialog {
+  border: 1px solid var(--main-color);
+}
+
+.dialog[open] {
+  background-color: var(--background-color);
 }
