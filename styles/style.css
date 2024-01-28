@@ -435,7 +435,7 @@
   filter: brightness(120%) contrast(150%) saturate(120%);
 }
 
-@media (width <= 440px) {
+@media (width <= 550px) {
   .image__start {
     max-width: 368px;
     min-height: 371px;
