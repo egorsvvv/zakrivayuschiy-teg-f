@@ -13,6 +13,9 @@
     --background-color: #000;
     --first-gradient: #000;
     --second-gradient: #007f0c, #004306;
+    --contour-color: #00cc14;
+    --core-color: red;
+    --main-body-color: red;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +28,9 @@
         --background-color: #000;
         --first-gradient: #000;
         --second-gradient: #007f0c, #004306;
+        --contour-color: #00cc14;
+        --core-color: red;
+        --main-body-color: red;
     }
 }
 
@@ -37,6 +43,9 @@
     --background-color: #FFF;
     --first-gradient: #d3d3d3;
     --second-gradient: #e7e7e7, #1a1a1a;
+    --contour-color: #000;
+    --core-color: #000;
+    --main-body-color: #000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,5 +58,8 @@
         --background-color: #FFF;
         --first-gradient: #d3d3d3;
         --second-gradient: #e7e7e7, #1a1a1a;
+        --contour-color: #000;
+        --core-color: #000;
+        --main-body-color: #000;
     }
 }

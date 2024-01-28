@@ -47,3 +47,21 @@
      transform: translateX(-4px);
     }
 }
+
+@keyframes heartScale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5); 
+    }
+}
+
+@keyframes sparkOpacity {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+}
