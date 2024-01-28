@@ -176,7 +176,7 @@
   border-top: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
   max-width: 692px;
-  min-height: 696px;
+  max-height: 696px;
 }
 
 .start__text {
@@ -358,7 +358,7 @@
 }
 
 .dialog {
-  min-width: 357px;
+  max-width: 357px;
   min-height: 193px;
   border: 1px solid var(--main-color);
 }
@@ -446,7 +446,7 @@
   }
 
   .header {
-    min-height: 323px;
+    max-height: 323px;
   }
 
   .label::before {
