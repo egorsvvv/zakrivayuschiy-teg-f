@@ -434,3 +434,41 @@
 .card-8 {
   filter: brightness(120%) contrast(150%) saturate(120%);
 }
+
+@media (width <= 440px) {
+  .image__start {
+    max-width: 368px;
+    min-height: 371px;
+  }
+
+  .logo__group {
+    margin-block-start: 120px;
+  }
+
+  .header {
+    min-height: 323px;
+  }
+
+  .label::before {
+    left: 262px;
+  }
+  
+  .footer {
+    margin: 54px 32px 70px 33px;
+  }
+
+  .footer__button {
+    flex-direction: column;
+    max-width: 306px;
+    max-height: 85px;
+  }
+
+  .floppy__button {
+    inline-size: 28px;
+    block-size: 28px;
+  }
+
+  .button__text {
+    white-space: nowrap;
+  }
+}

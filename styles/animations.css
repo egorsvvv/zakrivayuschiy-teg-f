@@ -54,7 +54,8 @@
     }
     50% {
       transform: scale(1.5); 
-    }
+    
+}
 }
 
 @keyframes sparkOpacity {
