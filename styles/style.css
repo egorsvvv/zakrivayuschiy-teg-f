@@ -175,8 +175,8 @@
   position: relative;
   border-top: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
-  max-width: 692px;
-  max-height: 696px;
+  width: 100%;
+  min-height: 696px;
 }
 
 .start__text {
@@ -436,8 +436,9 @@
 }
 
 @media (width <= 375px) {
+
   .image__start {
-    max-width: 368px;
+    width: 100%;
     min-height: 371px;
   }
 
@@ -446,7 +447,7 @@
   }
 
   .header {
-    max-height: 323px;
+    min-height: 323px;
   }
 
   .label::before {
