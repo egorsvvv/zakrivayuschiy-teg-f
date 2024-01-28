@@ -8,7 +8,7 @@
     --background-color: #FFF;
     --first-gradient: #d3d3d3;
     --second-gradient: #e7e7e7 , #1a1a1a;
-    --section-width: clamp(320px, 50%, 696px);
+    --section-width: clamp(320px, 100%, 696px);
     --contour-color: #000;
     --sparks-color: red;
     --core-color: #000;
