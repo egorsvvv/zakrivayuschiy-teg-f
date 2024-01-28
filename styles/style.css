@@ -155,7 +155,7 @@
   mix-blend-mode: hard-light;
   content: "</HTML>";
   top: 25px;
-  left: 573px;
+  left: 30vw;
   z-index: 1;
   opacity: 0.5;
   text-shadow: 2px 2px 2px var(--background-color);
