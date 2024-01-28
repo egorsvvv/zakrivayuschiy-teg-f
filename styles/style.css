@@ -218,7 +218,6 @@
 .card__icon-button {
   background-color: var(--background-color);
   padding: 0;
-  border: none;
   max-inline-size: 43px;
   max-block-size: 40px;
   margin-inline-end: 5px;
@@ -361,6 +360,7 @@
 .dialog {
   min-width: 357px;
   min-height: 193px;
+  border: 1px solid var(--main-color);
 }
 
 .text__dialog {
@@ -399,10 +399,38 @@
   fill: var(--main-color);
 }
 
-.dialog {
-  border: 1px solid var(--main-color);
-}
-
 .dialog[open] {
   background-color: var(--background-color);
+}
+
+.card-1 {
+  filter: brightness(150%);
+}
+
+.card-2 {
+  filter: saturate(200%);
+}
+
+.card-3 {
+  filter: hue-rotate(90deg);
+}
+
+.card-4 {
+  filter: contrast(150%);
+}
+
+.card-5 {
+  filter: invert(100%);
+}
+
+.card-6 {
+  filter: blur(5px);
+}
+
+.card-7 {
+  filter: sepia(50%);
+}
+
+.card-8 {
+  filter: brightness(120%) contrast(150%) saturate(120%);
 }
