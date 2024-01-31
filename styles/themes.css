@@ -5,10 +5,10 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-dark {
-    --Font-inter: 'Inter-Variable', sans-serif;
-    --Font-Press: 'PressStart2P', sans-serif;
-    --Weight-title: 785;
-    --Weight-text: 465;
+    --font-main: 'Inter-Variable', sans-serif;
+    --font-secondary: 'PressStart2P', sans-serif;
+    --weight-title: 785;
+    --weight-text: 465;
     --main-color: #00cc14;
     --background-color: #000;
     --width-gradient: #000;
@@ -17,14 +17,16 @@
     --core-color: #00cc14;
     --main-body-color: #00cc14;
     --font-settings: 785;
+    --mix-color: #00cc14;
+    --background-dialog: #000;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --Font-inter: 'Inter-Variable', sans-serif;
-        --Font-Press: 'PressStart2P', sans-serif;
-        --Weight-title: 785;
-        --Weight-text: 465;
+        --font-main: 'Inter-Variable', sans-serif;
+        --font-secondary: 'PressStart2P', sans-serif;
+        --weight-title: 785;
+        --weight-text: 465;
         --main-color: #00cc14;
         --background-color: #000;
         --width-gradient: #000;
@@ -33,14 +35,16 @@
         --core-color: #00cc14;
         --main-body-color: #00cc14;
         --font-settings: 785;
+        --mix-color: #00cc14;
+        --background-dialog: #000;
     }
 }
 
 :root.theme-light {
-    --Font-inter: 'Inter-Variable', sans-serif;
-    --Font-Press: 'PressStart2P', sans-serif;
-    --Weight-title: 700;
-    --Weight-text: 400;
+    --font-main: 'Inter-Variable', sans-serif;
+    --font-secondary: 'PressStart2P', sans-serif;
+    --weight-title: 700;
+    --weight-text: 400;
     --main-color: #000;
     --background-color: #FFF;
     --width-gradient: #d3d3d3;
@@ -49,14 +53,16 @@
     --core-color: #000;
     --main-body-color: #000;
     --font-settings: 700;
+    --mix-color: #FFF;
+    --background-dialog: #000;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --Font-inter: 'Inter-Variable', sans-serif;
-        --Font-Press: 'PressStart2P', sans-serif;
-        --Weight-title: 700;
-        --Weight-text: 400;
+        --font-main: 'Inter-Variable', sans-serif;
+        --font-secondary: 'PressStart2P', sans-serif;
+        --weight-title: 700;
+        --weight-text: 400;
         --main-color: #000;
         --background-color: #FFF;
         --width-gradient: #d3d3d3;
@@ -65,5 +71,7 @@
         --core-color: #000;
         --main-body-color: #000;
         --font-settings: 700;
+        --mix-color: #FFF;
+        --background-dialog: #000;
     }
 }
