@@ -402,7 +402,7 @@ dialog::backdrop {
   filter: brightness(120%) contrast(150%) saturate(120%);
 }
 
-@media (width <= 375px) {
+@media (width <= 375px) and (orientation: portrait) {
   .logo__group {
     margin-block-start: 120px;
   }
